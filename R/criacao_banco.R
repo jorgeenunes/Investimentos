@@ -2,7 +2,7 @@
 library(RSQLite)
 
 # Nome do arquivo do banco de dados
-db_file <- "data-raw/investmentos.db"
+db_file <- "data/investmentos.db"
 
 # Conectar ao banco de dados SQLite
 con <- dbConnect(SQLite(), dbname = db_file)
@@ -97,3 +97,6 @@ exec_sql(sql)
 
 # Fechar a conexão com o banco de dados
 dbDisconnect(con)
+
+
+

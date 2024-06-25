@@ -2,8 +2,9 @@
 .Rhistory
 .RData
 .Ruserdata
-.Rdata
 .httr-oauth
 .DS_Store
 .quarto
-.Token.txt
+.Token
+data/
+data-raw/
