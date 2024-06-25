@@ -6,5 +6,9 @@
 .DS_Store
 .quarto
 .Token
-data/
-data-raw/
+data
+data-raw
+logs
+Token.txt
+*.csv
+*.xlsx
